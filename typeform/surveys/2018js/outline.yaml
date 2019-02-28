@@ -1,82 +1,60 @@
 # the survey outline
 ---
-- title: JavaScript Flavors
-  description: JavaScript variants and languages that compile to JavaScript.
+- title: Authoring Language Flavors
+  description: Authoring languages used to complete documentation.
   id: flavors 
   questions:
-    - Reason
-    - ClojureScript
-    - Elm
-    - Flow
-    - TypeScript
-    - ES6+|es6
-    # - PureScript
-    # - Plain JavaScript|javascript
+    - Markdown
+    - Wiki
+    - DITA HTML/XML
+    - Plain HTML
+    - DocBook XML
+    - LinuxDoc SGML
+    - Troff / Psroff
+    - LaTex
     - Other|flavors_other
     - Rating|flavors_rating
-- title: Front-End
-  description: Client-side JavaScript frameworks.
+- title: Information Gathering
+  description: How information is gathered from Subject Matter Experts.
   questions: 
-    - React
-    - Angular
-    - Ember
-    - Polymer
-    - Vue.js|vue
+    - Meetings
+    - Written Specs
+    - Wikis
+    - Confluence
+    - Email
     - Preact
-    # - Hyperapp
-    # - Riot
-    # - Inferno
     - Other|frontend_other
     - Rating|frontend_rating
-- title: Data Layer
-  description: Technologies dealing with managing data and state on the client (databases excluded).
+- title: Structure
+  description: Structures dealing with the organization of information.
   questions:
-    - Redux
-    - GraphQL
-    - Relay
-    - Apollo
-    - Mobx
-    # - Firebase
-    # - VueX
+    - Information Mapping
+    - DITA
+    - Chunking
     - Other|datalayer_other
     - Rating|datalayer_rating
-# - title: Back-end
-#   questions:
-#     - Node.js
-#     - Rails
-#     - PHP
-#     - Java
-#     - .NET|dotnet
-#     - Other|backend_other
-#     - Rating|backend_rating
-- title: Back-end
+- title: Content Management Systems
   id: nodebackends
-  description: If you don't use a Node-based solution on the back-end, please pick "other"
+  description: How you manage your documentation.
   questions:
-    # - Nuxt.js
-    - Meteor
-    - Express
-    - Next.js
-    # - Gatsby.js
-    - Koa
-    - Sails
-    # - Hapi
-    # - Loopback
-    - Feathers
+    - Confluence
+    - Git
+    - Drupal
+    - Wordpress
+    - Joomla
+    - Sharepoint
+    - Wiki
     - Other|nodebackends_other
     - Rating|nodebackends_rating
-- title: Testing
-  description: Libraries and tools used for testing your code. 
+- title: Quality
+  description: Methods and tools used for quality control of your content. 
   questions:
-    - Storybook
-    - Mocha
-    - Jasmine
-    - Jest
-    - Enzyme
-    - Ava
-    - Karma
-    # - Cypress
-    # - Puppeteer
+    - Grammarly
+    - Spell Check
+    - Writer's Checklist
+    - Style Guide
+    - Automated Style Adherence Tool
+    - Readability Tool
     - Other|testing_other
     - Rating|testing_rating
 # - title: CSS
