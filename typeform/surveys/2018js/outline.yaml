@@ -187,8 +187,77 @@
 - title: About You
   description: Let's get to know the real you.
   questions:
+    - title: Job Titles
+      description: What you call yourself.
+      template: multiple
+      allowmultiple: false
+      allowother: true
+      randomize: false
+      options:
+        - Technical Writer
+        - Technical Writing Manager
+        - Information Developer
+        - Technical Content Developer
+        - Learning Products Engineer
+        - Information Architect
+        - UX Writer
+        - Instructional Designer
+    - title: Guilds and Organizations
+      description: How you network and socialize.  
+      template: multiple
+      allowmultiple: true
+      allowother: true
+      randomize: false
+      options:
+        - Society for Technical Communication
+        - Write the Docs
+        - National Association of Government Communicators
+        - National Association of Science Writers
+        - Professional Communiations Society (IEEE)
+        - Tech Writers Without Borders
+    - title: Industry 
+      description: What part of the global economy you support.
+      template: multiple
+      allowmultiple: true
+      allowother: true
+      randomize: false
+      options:
+        - Technology
+        - Higher Education
+        - Non-profit
+        - Insurance
+        - Healthcare
+        - Finance and Banking
+        - Automotive
+        - Government and Military
+        - Manufacturing
+    - title: Department
+      description: The department you work for in your organization.  
+      template: multiple
+      allowmultiple: false
+      allowother: true
+      randomize: false
+      options:
+        - Technical Publications
+        - Engineering
+        - Customer Support
+        - Marketing & Sales
+        - Information Technology/Information Services
+        - Research and Development
+        - Manufacturing
+    - title: Department Size
+      description: How big is your specific team.
+      template: multiple
+      allowmultiple: false
+      allowother: false
+      randomize: false
+      options:
+        - Just me!
+        - 2 - 5
+        - 6 - 20
+        - 21 +
     - title: Years of Experience
-      description: How long you've been working in the code mines.
+      description: How long you've been chasing down SMEs.
       template: multiple
       allowmultiple: false
       allowother: false
