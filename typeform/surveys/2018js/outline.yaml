@@ -44,8 +44,10 @@
     - Joomla
     - Sharepoint
     - Wiki
-    - Other|nodebackends_other
-    - Rating|nodebackends_rating
+    - Acrolinx
+    - Stoplight
+    - Other|contentmanagementsystems_other
+    - Rating|contentmanagementsystems_rating
 - title: Quality
   description: Methods and tools used for quality control of your content. 
   questions:
@@ -68,21 +70,39 @@
 #     - Tailwind CSS
 #     - Other|css_other
 #     - Rating|css_rating
-- title: Mobile & Desktop
-  id: mobiledesktop
-  description: Tools for running JavaScript on other platforms.
+- title: Authoring Tools
+  id: authoringtools
+  description: Tools for authoring content.
   questions: 
-    - Electron
-    - React Native
-    - PhoneGap/Cordova
-    - NativeScript
-    - Ionic
-    - Native Apps
+    - FrameMaker
+    - Flare
+    - Word
+    - InDesign
+    - Simply XML
+    - OXygen
+    - easyDITA
+    - Confluence
+    - GitBook
+    - Doxygen
+    - Drupal
+    - XMetaL
+    - RoboHelp
+    - Scriptorium
+    - Paligo
+    - Quark
+    - Gdocs
+    - DITATOO
+    - Doc-tohelp
+    - Readthedocs
+    - Jekyll
+    - Sphinx
+    - Ixiasoft
+    - AuthorIT
     # - Weex
     # - Flutter
     # - Haxe
-    - Other|mobiledesktop_other
-    - Rating|mobiledesktop_rating
+    - Other|authoringtools_other
+    # - Rating|mobiledesktop_rating
 - title: Other Tools
   description: For these tools & technologies, just check the ones that you use regularly. 
   questions:
@@ -168,19 +188,19 @@
     #     - JSHint
     #     - StandardJS
 - title: Opinion Questions
-  description: How do you feel about the state of JavaScript?
+  description: How do you feel about the state of Technical Communications?
   questions:
-    - title: JavaScript is moving in the right direction
+    - title: Technical Communications is moving in the right direction
       template: opinion
-    - title: Building JavaScript apps is overly complex right now
+    - title: Building Docs is overly complex right now
       template: opinion
-    - title: JavaScript is over-used online
+    - title: Technical Communications is under-appreciated
       template: opinion
-    - title: I enjoy building JavaScript apps
+    - title: I enjoy building Docs
       template: opinion
-    - title: I would like JavaScript to be my main programming language
+    - title: I would like Technical Writing to be my main job
       template: opinion
-    - title: The JavaScript ecosystem is changing too fast
+    - title: The Technical Communications ecosystem is not changing fast enough
       template: opinion
     - title: This survey is too damn long!
       template: opinion
